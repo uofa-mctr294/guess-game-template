@@ -36,6 +36,12 @@ int32_t getRandomGuessableNumber(int32_t min, int32_t max)
 - You can manage input and output to the console using `std::cout`, `std::cin` & `std::getline`. See [cpp-io](https://en.cppreference.com/w/cpp/io.html) for more options
 - Format string into fixed-sized character buffers using `std::snprintf`
 
+## Bonus
+
+- Create your own implementation of a psuedo random number generator ([pRNG](https://en.wikipedia.org/wiki/Pseudorandom_number_generator))
+- There are many different algorithms one could use for a pRNG, one option is a [linear congruential generator](https://en.wikipedia.org/wiki/Linear_congruential_generator)
+- Your generator function should initialize a seed value the first time it is run, and use the each returned result as the next seed.
+
 ## Building
 
 ```shell
