@@ -118,3 +118,19 @@ build\Debug\hello_world.exe
 ctest --test-dir build -C Debug
 Add -V for verbose testing
 ```
+
+### Bonus
+
+Look at the `unit` branch to see an example of building a library and performing unit testing
+
+``` shell
+git switch unit
+```
+
+## Assignment
+
+After you have finished these steps switch to the `guess` branch for part 2 of this lab
+
+``` shell
+git switch guess
+```
