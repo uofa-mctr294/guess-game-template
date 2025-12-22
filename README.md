@@ -49,12 +49,3 @@ cmake -S . -B build
 cmake --build build --config Debug
 build\Debug\guess_game.exe
 ```
-
-## Testing
-
-[Build](#building)
-
-```shell
-ctest --test-dir build -C Debug
-Add -V for verbose testing
-```
